@@ -8,4 +8,4 @@ forex_to = input("Write your suggestion to MONEY withdraw => ")
 cash = CurrencyRates()  
 case = cash.convert( forex_from , forex_to , 1 )
 
-print("Convert {forex_from} to {forex_to} =======> ",case)
+print("Convert result...! =======>",case)
