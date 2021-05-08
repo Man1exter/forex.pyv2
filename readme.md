@@ -1,1 +1,1 @@
-*forex* -> converter from forex
+*forex* ----> converter from ..FOREX..
