@@ -1,0 +1,1 @@
+*forex* -> converter from forex
