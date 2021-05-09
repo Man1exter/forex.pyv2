@@ -1,1 +1,1 @@
-*forex* ----> converter from ..FOREX..
+*forex* ----> converter from ..> <strong>FOREX</strong> <..
