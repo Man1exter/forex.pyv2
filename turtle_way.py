@@ -21,11 +21,22 @@ def super_turtle_exp(name,size,deg):
         name.right(deg)
         name.pencolor('blue')
         name.pensize(10)
+
+def super_turtle_exp_ten(name,size,deg):
+    for i in range(5):
+        name.speed(5)
+        name.forward(size)
+        name.left(deg)
+        name.pencolor('brown')
+        name.pensize(3)
         
 def main():
     animal = turtle.Turtle()     # turtle init to draw
+
     super_turtle(animal,100,90)
     super_turtle_exp(animal,150,90)
+    super_turtle_exp_ten(animal,100,90)
+
     turtle.exitonclick()         # exit with [X]
 main()
 
