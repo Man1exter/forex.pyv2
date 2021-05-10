@@ -19,3 +19,5 @@ def main():
 
 main()
 
+# .pencolor( 'blue' )
+# .prensize( 10 )
