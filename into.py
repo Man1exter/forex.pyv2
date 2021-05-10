@@ -1,4 +1,5 @@
 from forex_python.converter import CurrencyRates
+import turtle_way
 
 def function():
   print("..Currency Converter From Forex..")
