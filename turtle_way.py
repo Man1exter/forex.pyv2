@@ -8,14 +8,24 @@ import turtle
 # animal.left(90)
 
 def super_turtle(name,size,deg):
-    for i in range(300):
+    for i in range(5):
         name.speed(5)
         name.forward(size)
         name.left(deg)
+        name.pensize(5)
+
+def super_turtle_exp(name,size,deg):
+    for i in range(5):
+        name.speed(5)
+        name.forward(size)
+        name.right(deg)
+        name.pencolor('blue')
+        name.pensize(10)
         
 def main():
     animal = turtle.Turtle()     # turtle init to draw
     super_turtle(animal,100,90)
+    super_turtle_exp(animal,150,90)
     turtle.exitonclick()         # exit with [X]
 main()
 
