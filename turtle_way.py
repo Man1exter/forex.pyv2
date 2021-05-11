@@ -38,6 +38,7 @@ def main():
     super_turtle_exp_ten(animal,100,90)
 
     turtle.exitonclick()         # exit with [X]
+    #error with unknown word -> exitonclick
 
 main()
 
