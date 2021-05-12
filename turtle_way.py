@@ -23,13 +23,22 @@ def super_turtle_exp(name,size,deg):
         name.pensize(10)
 
 def super_turtle_exp_ten(name,size,deg):
-    for element in range(5):
+    choice == int(input("wanna use pen size 5? [1] YES / [2] NO"))
+    
+    if choice == 1: 
+      for element in range(5):
         name.speed(5)
         name.forward(size)
         name.left(deg)
         name.pencolor('brown')
-        name.pensize(3)
-        
+        name.pensize(5)
+    else:
+        for element in range(5):
+            name.speed(5)
+        name.forward(size)
+        name.left(deg)
+        name.pencolor('brown')
+
 def main():
     animal = turtle.Turtle()     # turtle init to draw
 
