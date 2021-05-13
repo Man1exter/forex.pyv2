@@ -39,6 +39,12 @@ def super_turtle_exp_ten(name,size,deg):
         name.left(deg)
         name.pencolor('brown')
 
+def step_turtle():
+    pass
+
+def step_turtle_second():
+    pass
+
 def main():
     animal = turtle.Turtle()     # turtle init to draw
 
