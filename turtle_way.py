@@ -44,6 +44,9 @@ def main():
     super_turtle_exp(animal,150,90)
     super_turtle_exp_ten(animal,100,90)
 
+    step_turtle()
+    step_turtle_second()
+
     turtle.exitonclick()         # exit with [X]
     #error with unknown word -> exitonclick
 
