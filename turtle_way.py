@@ -22,7 +22,8 @@ def super_turtle_exp(name,size,deg):
         name.pencolor('blue')
         name.pensize(10)
 
-def super_turtle_exp_ten(name,size,deg):
+def super_turtle_exp_ten(name,size,deg,choice):
+
     choice == int(input("wanna use pen size 5? [1] YES / [2] NO"))
     
     if choice == 1: 
@@ -34,10 +35,10 @@ def super_turtle_exp_ten(name,size,deg):
         name.pensize(5)
     else:
         for element in range(5):
-            name.speed(5)
-        name.forward(size)
-        name.left(deg)
-        name.pencolor('brown')
+         name.speed(5)
+         name.forward(size)
+         name.left(deg)
+         name.pencolor('brown')
 
 def step_turtle():
     pass
@@ -48,7 +49,7 @@ def step_turtle_second():
 def main():
     animal = turtle.Turtle()     # turtle init to draw
 
-    super_turtle(animal,100,90)
+    super_turtle(animal,100,90,)
     super_turtle_exp(animal,150,90)
     super_turtle_exp_ten(animal,100,90)
 
