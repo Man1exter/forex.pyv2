@@ -8,6 +8,7 @@ import turtle
 # animal.left(90)
 
 def super_turtle(name,size,deg):
+
     for element in range(5):
         name.speed(5)
         name.forward(size)
@@ -15,6 +16,7 @@ def super_turtle(name,size,deg):
         name.pensize(5)
 
 def super_turtle_exp(name,size,deg):
+
     for element in range(5):
         name.speed(5)
         name.forward(size)
@@ -31,15 +33,16 @@ def super_turtle_exp_ten(name,size,deg):
         name.pencolor('brown')
         name.pensize(5)
 
-def step_turtle():
+def step_turtle(): # star
     print(" ")
     pass
 
-def step_turtle_second():
+def step_turtle_second(): # rectangle with rectangle
     print(" ")
     pass
 
 def main():
+
     animal = turtle.Turtle()     # turtle init to draw on panel
 
     super_turtle(animal,100,90)
@@ -49,8 +52,8 @@ def main():
     step_turtle()
     step_turtle_second()
 
-    turtle.exitonclick()         # exit with [X]
-    #error with unknown word/words -> exitonclick
+    turtle.exitonclick()         # exit with [X] on right top corner 
+    #error with unknown word/words -> ,,exitonclick,,
 
 main() # all function in one main 
 
