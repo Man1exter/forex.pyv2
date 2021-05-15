@@ -32,9 +32,11 @@ def super_turtle_exp_ten(name,size,deg):
         name.pensize(5)
 
 def step_turtle():
+    print(" ")
     pass
 
 def step_turtle_second():
+    print(" ")
     pass
 
 def main():
@@ -50,7 +52,7 @@ def main():
     turtle.exitonclick()         # exit with [X]
     #error with unknown word/words -> exitonclick
 
-main()
+main() # all function in one main 
 
 # .pencolor( 'blue' )
 # .prensize( 10 )
