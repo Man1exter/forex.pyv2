@@ -38,7 +38,7 @@ def step_turtle_second():
     pass
 
 def main():
-    animal = turtle.Turtle()     # turtle init to draw
+    animal = turtle.Turtle()     # turtle init to draw on panel
 
     super_turtle(animal,100,90)
     super_turtle_exp(animal,150,90)
@@ -48,7 +48,7 @@ def main():
     step_turtle_second()
 
     turtle.exitonclick()         # exit with [X]
-    #error with unknown word -> exitonclick
+    #error with unknown word/words -> exitonclick
 
 main()
 
