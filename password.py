@@ -1,10 +1,12 @@
 import random
 
+
+length = int(input("length of your password => "))
+
 lower_case = "qwertyuiopasdfghjklzxcvbnm"
 upper_case = "ABCDEFGHIJKLMNTOPURWQZS"
 symbols = "{}[]\|/?><+=-)(*&^%$#@!"
 numbers = "1234567890"
-length = 20
 
 all_elements = lower_case + upper_case + symbols + numbers
 
