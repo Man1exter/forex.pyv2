@@ -1,6 +1,5 @@
 import random
 
-
 length = int(input("length of your password => "))
 
 lower_case = "qwertyuiopasdfghjklzxcvbnm"
@@ -10,5 +9,5 @@ numbers = "1234567890"
 
 all_elements = lower_case + upper_case + symbols + numbers
 
-password_print = "".join(random.sample(all_elements,length))
+password_print = " ".join(random.sample(all_elements,length))
 print(password_print)
