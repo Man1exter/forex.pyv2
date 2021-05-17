@@ -3,3 +3,5 @@
 *turtle* ----> use turtle to draw some things in the window
 
 *projects* ----> 3x turtle projects
+
+*better password* ----> password with all elements from keyboard 
