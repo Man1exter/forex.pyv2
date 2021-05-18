@@ -11,5 +11,5 @@ all_elements = lower_case + upper_case + symbols + numbers
 
 password_print = " ".join(random.sample(all_elements,length))
 password_print_two = "".join(random.sample(all_elements,length))
-print(password_print)
-print(password_print_two)
+print("password with space ===> ",password_print)
+print("password without space ===> ",password_print_two)
