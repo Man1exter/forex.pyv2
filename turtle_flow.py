@@ -18,5 +18,6 @@ def main():
 
    ###############################
 
-   turtles.exitonclick()
+   screen_turtle = turtles.Screen()
+   screen_turtle.exitonclick()
 main()
