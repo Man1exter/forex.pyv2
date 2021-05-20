@@ -10,4 +10,6 @@
 
 - rectangle power
 
+- circle 
+
 *better password* ----> password with all elements from keyboard 
