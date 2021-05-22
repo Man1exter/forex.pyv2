@@ -1,9 +1,17 @@
 import turtle
 import random
 
-turtle_zoo = turtle.Turtle()
+# init
+tur = turtle.Turtle()
 
-for ele in range(50,300):
-  turtle_zoo(random.choice(["blue"]))
-  turtle_zoo.forward(ele)
-  turtle_zoo.right(91)
+# settings
+turtle.bgcolor('black')
+
+# drawing loop
+for it in range(50,300):
+  tur.color(random.choice(["blue","red","yellow","brown","purple"]))
+  tur.forward(it)
+  tur.right(91)
+
+# exit
+tur.exitonclick()
