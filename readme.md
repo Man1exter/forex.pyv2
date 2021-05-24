@@ -14,4 +14,4 @@
 
 *better password* ----> password with all elements from keyboard 
 
-*turtle move with keyboard*
+*turtle move with keyboard* ----> drawing effect with user 
