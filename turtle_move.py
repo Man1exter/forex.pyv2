@@ -8,9 +8,10 @@ turtle.shape('turtle')
 
 # cosmetics additionally
 turtle.bgcolor("lightblue")
-turtle.color("green")
 turtle.pensize('5')
 turtle.speed(5)
+turtle.color(random.choice(["blue","red","yellow","brown","purple","white","black"]))
+
 #  turtle.screensize(2000,1500) 
 
 # game events
