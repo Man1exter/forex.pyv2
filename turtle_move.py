@@ -5,35 +5,29 @@ import sys
 # initialization of game settings
 animal = turtle.Turtle()
 turtle.shape('turtle')
-turtle.bgcolor("black")
-turtle.color("white")
+turtle.bgcolor("yellow")
+turtle.color("black")
+turtle.pensize('5')
 #  turtle.screensize(2000,1500) 
 
 # game events
+def up():
+    turtle.forward(100)
+def left():
+    turtle.left(30)
+def right():
+    turtle.right(30)
+def bye():
+    turtle.bye()
 
-#keys = turtle.key.get_pressed()
+turtle.onkey(up,'Up')
+turtle.onkey(left,'Left')
+turtle.onkey(right,'Right')
+turtle.onkey(bye,'q')
 
- # --- WASD ---
-
-#if keys[turtle.K_d]:
-   #animal.x += 1
-#if keys[turtle.K_s]:
-   #animal.y += 1
-#if keys[turtle.K_w]:
-   #animal.y -= 1
-#if keys[turtle.K_a]:
-   #animal.x -= 1
-
- # --- ARROWS ---
-
-#if keys[turtle.K_RIGHT]:
-       #animal.x += 1
-#if keys[turtle.K_DOWN]:
-   #animal.y += 1
-#if keys[turtle.K_UP]:
-   #animal.y -= 1
-#if keys[turtle.K_LEFT]:
-   #animal.x -= 1
+# to moving turtle way
+turtle.listen()
+turtle.mainloop()
 
 # exit with [x]
 turtle.exitonclick()
